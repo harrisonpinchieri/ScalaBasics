@@ -2,7 +2,7 @@ package lectures.parte2oop
 
 object heranca extends App {
 
-  class Animal{
+  sealed class Animal{
     val creatureType = "wild"
   //  protected def eat = println("nomnom")
    def eat = println("nomnom")
@@ -59,6 +59,12 @@ class Dog (override  val creatureType:String) extends Animal{
 //overrind vs overloading
 
   //super
+
+  /* preventing overrides
+    1- use final on member
+    2- use final on the entire class
+    3- seal the class = extend calsses in THIS FILE, prevent extension in other files
+     */
 
 
 

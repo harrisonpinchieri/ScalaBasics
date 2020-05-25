@@ -1,6 +1,4 @@
-package lectures.parte2oop
-
-import scala.annotation.tailrec
+package exercises
 
 object OOExercicio extends App {
 
@@ -10,7 +8,7 @@ object OOExercicio extends App {
 
 
   println(novel.authorAge)
-  println(novel.isWrittenBy((author)))
+  println(novel.isWrittenBy(author))
 
   val counter = new Counter
   counter.inc.print
@@ -22,7 +20,7 @@ object OOExercicio extends App {
 class writer ( firstname:String, surname:String,val year:Int ){
 
   def fullname(): String ={
-   return  firstname + " " + surname
+    firstname + " " + surname
   }
 }
 

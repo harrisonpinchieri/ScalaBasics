@@ -36,6 +36,7 @@ object AbstractDataTypes extends App{
   1- traits não possui parametros de construtor
   2- multiplos traits  herdados pela mesma classe
   3 - a classe animal descreve o que é o animal e traits são o que eles fazem.
+  4 - traits = "behavior" , class = "thing"
    */
 
 }

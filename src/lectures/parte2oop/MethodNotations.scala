@@ -42,7 +42,7 @@ object MethodNotations extends App {
 
   //postfix notation
   println(mary.isAlive)
-  println(mary isAlive)
+  println(mary.isAlive)
 
   //apply
   println(mary.apply())
@@ -59,7 +59,7 @@ object MethodNotations extends App {
   println((+mary).age)
   //3 add a "learns" method in the person class => "Mary learns Scala", add a learnsScala method, calls learns method with "Scala".
   println("3")
-  println(mary learnsScala)
+  println(mary.learnsScala)
 
   //4 overload the apply method, mary.apply(2) => "mary whatec inception 2 times"
   println("4")
